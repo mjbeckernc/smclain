@@ -1,0 +1,317 @@
+/* JOBSPLIT: JOBSTARTTIME 09SEP2016:20:56:26.93 */
+/* JOBSPLIT: TASKSTARTTIME 09SEP2016:20:56:26.93 */
+/* JOBSPLIT: CATALOG OUTPUT WORK.SASMACR.LISTING.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: CATALOG INPUT WORK.SASMACR.LISTING.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: CATALOG OUTPUT WORK.SASMACR.SYSTEMP.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: CATALOG UPDATE WORK.SASMACR.SYSTEMP.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: DATASET INPUT SEQ SDTM.AE.DATA */
+/* JOBSPLIT: LIBNAME SDTM V9 'C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\data\sdtm' */
+/* JOBSPLIT: DATASET OUTPUT SEQ WORK.AE.DATA */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: DATASET INPUT SEQ SDTM.DM.DATA */
+/* JOBSPLIT: LIBNAME SDTM V9 'C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\data\sdtm' */
+/* JOBSPLIT: DATASET OUTPUT SEQ WORK.DM.DATA */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: DATASET INPUT MULTI WORK.AE.DATA */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: DATASET INPUT SEQ WORK.DM.DATA */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: CATALOG INPUT LIBRARY.FORMATS.YESNO.FORMATC */
+/* JOBSPLIT: LIBNAME LIBRARY V9 'C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\data\analysis' */
+/* JOBSPLIT: CATALOG INPUT WORK.SASMACR.MCASE.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: CATALOG INPUT WORK.SASMACR.MNUMOBS.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: CATALOG INPUT WORK.SASMACR.MTITLE.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: DATASET INPUT SEQ DERIVED.TOC_PROG.DATA */
+/* JOBSPLIT: LIBNAME DERIVED V9 'C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\data\analysis' */
+/* JOBSPLIT: DATASET OUTPUT SEQ WORK.TOC_PROG.DATA */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: DATASET INPUT SEQ WORK.TOC_PROG.DATA */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: ITEMSTORE INPUT SASHELP.TMPLMST */
+/* JOBSPLIT: ITEMSTORE INPUT DERIVED.MATT */
+/* JOBSPLIT: ITEMSTORE INPUT SASHELP.TMPLZGI_STD */
+/* JOBSPLIT: ITEMSTORE INPUT SASHELP.TMPLSTYLES */
+/* JOBSPLIT: ITEMSTORE INPUT SASHELP.TMPLPROCTEMPLATE */
+/* JOBSPLIT: ITEMSTORE INPUT SASHELP.TMPLBASE */
+/* JOBSPLIT: FILE OUTPUT C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\programs\prod\output\listings\a16_02_07_01_lae1.rtf */
+/* JOBSPLIT: ITEMSTORE OUTPUT . */
+/* JOBSPLIT: CATALOG INPUT #C00001.DEVICES.EMF.DEV */
+/* JOBSPLIT: LIBNAME #C00001 V9 'C:\Program Files\SASHome\SASFoundation\9.4\core\sashelp' */
+/* JOBSPLIT: CONCATMEM #C00001 SASHELP */
+/* JOBSPLIT: LIBNAME SASHELP V9 '( 'C:\Program Files\SASHome\SASFoundation\9.4\nls\en\SASCFG' 'C:\Program Files\SASHome\SASFoundation\9.4\core\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\aacomp\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\access\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\af\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\assist\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\bimva\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\cmp\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\connect\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\creditscrnod\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\eis\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\ets\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\forecastbat\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\forecastmva\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\genetics\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\gis\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\graph\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\hpf\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\intrnet\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\inttech\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\irp\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\lasr\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\mmcommon\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\or\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\qc\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\rskrptrpsbk\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\spdsclient\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\stat\sashelp' 'C:\Program Files\SASHome\SASFoundation\9.4\whouse\sashelp' )' */
+/* JOBSPLIT: FILE INPUT C:\Program Files\SASHome\ReportFontsforClients\9.4\saswcur.ttf */
+/* JOBSPLIT: FILE INPUT C:\Windows\Fonts\cour.ttf */
+/* JOBSPLIT: FILE INPUT C:\Windows\Fonts\times.ttf */
+/* JOBSPLIT: FILE INPUT C:\Windows\Fonts\timesbi.ttf */
+/* JOBSPLIT: FILE INPUT C:\Program Files\SASHome\ReportFontsforClients\9.4\saswalb.ttf */
+/* JOBSPLIT: FILE INPUT C:\Windows\Fonts\timesbd.ttf */
+/* JOBSPLIT: FILE INPUT C:\Program Files\SASHome\ReportFontsforClients\9.4\saswalr.ttf */
+/* JOBSPLIT: ITEMSTORE UPDATE Work.SASTMP-000000013 */
+/* JOBSPLIT: ITEMSTORE INPUT SASHELP.TMPLLISTING */
+/* JOBSPLIT: CATALOG INPUT WORK.SASMACR.MPAGEOF.MACRO */
+/* JOBSPLIT: LIBNAME WORK V9 'C:\Users\matbec\AppData\Local\Temp\SAS Temporary Files\_TD9228_L7C139_\Prc2' */
+/* JOBSPLIT: FILE INPUT C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\programs\prod\output\listings\a16_02_07_01_lae1.rtf */
+/* JOBSPLIT: FILE UPDATE C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\programs\prod\output\listings\a16_02_07_01_lae1.rtf */
+/* JOBSPLIT: FILE OUTPUT C:\biometrics\XMB111\XMB111\analyses_mjb\CSR\programs\prod\record.txt */
+/* JOBSPLIT: SYMBOL SET PROGID */
+/* JOBSPLIT: SYMBOL SET SUBSET */
+/* JOBSPLIT: SYMBOL GET SUBSET */
+/* JOBSPLIT: SYMBOL GET SYSSORTDETAILS */
+/* JOBSPLIT: SYMBOL GET SYSSORTTRACELEVEL */
+/* JOBSPLIT: SYMBOL GET SYSSORTTRACE */
+/* JOBSPLIT: SYMBOL SET INDS */
+/* JOBSPLIT: SYMBOL SET EXCEPTL */
+/* JOBSPLIT: SYMBOL SET FIX_ID */
+/* JOBSPLIT: SYMBOL GET INDS */
+/* JOBSPLIT: SYMBOL SET SYS_SQL_IP_ALL */
+/* JOBSPLIT: SYMBOL SET SQLOBS */
+/* JOBSPLIT: SYMBOL SET SQLOOPS */
+/* JOBSPLIT: SYMBOL SET SQLXOBS */
+/* JOBSPLIT: SYMBOL SET SQLXOPENERRS */
+/* JOBSPLIT: SYMBOL SET SQLRC */
+/* JOBSPLIT: SYMBOL SET SQLEXITCODE */
+/* JOBSPLIT: SYMBOL GET EXCEPTL */
+/* JOBSPLIT: SYMBOL SET SYS_SQL_IP_STMT */
+/* JOBSPLIT: SYMBOL GET SYS_SQL_UNPUT_TRACE */
+/* JOBSPLIT: SYMBOL GET SQLMAGIC */
+/* JOBSPLIT: SYMBOL GET SYS_SQL_INDX_DISTINCT */
+/* JOBSPLIT: SYMBOL GET SYSSORTMSGS */
+/* JOBSPLIT: SYMBOL SET VARLIST */
+/* JOBSPLIT: SYMBOL GET VARLIST */
+/* JOBSPLIT: SYMBOL GET FIX_ID */
+/* JOBSPLIT: SYMBOL SET NUM */
+/* JOBSPLIT: SYMBOL SET MYVAL */
+/* JOBSPLIT: SYMBOL GET MYVAL */
+/* JOBSPLIT: SYMBOL GET NUM */
+/* JOBSPLIT: SYMBOL GET NOBS */
+/* JOBSPLIT: SYMBOL SET NOBS */
+/* JOBSPLIT: SYMBOL GET PROGID */
+/* JOBSPLIT: SYMBOL SET TYPE */
+/* JOBSPLIT: SYMBOL SET ORIENT */
+/* JOBSPLIT: SYMBOL SET SASOPT */
+/* JOBSPLIT: SYMBOL SET BYVAR */
+/* JOBSPLIT: SYMBOL SET BYTXT */
+/* JOBSPLIT: SYMBOL SET TMNAME */
+/* JOBSPLIT: SYMBOL SET NOPAGE */
+/* JOBSPLIT: SYMBOL GET SASOPT */
+/* JOBSPLIT: SYMBOL GET OUTPUTNAME */
+/* JOBSPLIT: SYMBOL SET MLS */
+/* JOBSPLIT: SYMBOL GET ORIENT */
+/* JOBSPLIT: SYMBOL SET ORIENTO */
+/* JOBSPLIT: SYMBOL GET ORIENTO */
+/* JOBSPLIT: SYMBOL GET TABLNO */
+/* JOBSPLIT: SYMBOL GET NUMTITLE */
+/* JOBSPLIT: SYMBOL GET FOOTN1 */
+/* JOBSPLIT: SYMBOL GET FOOTN2 */
+/* JOBSPLIT: SYMBOL GET FOOTN3 */
+/* JOBSPLIT: SYMBOL GET FOOTN4 */
+/* JOBSPLIT: SYMBOL GET FOOTN5 */
+/* JOBSPLIT: SYMBOL GET FOOTN6 */
+/* JOBSPLIT: SYMBOL GET FOOTN7 */
+/* JOBSPLIT: SYMBOL GET FOOTN8 */
+/* JOBSPLIT: SYMBOL GET FOOTN9 */
+/* JOBSPLIT: SYMBOL GET SPAGENO */
+/* JOBSPLIT: SYMBOL GET SFOOTN1 */
+/* JOBSPLIT: SYMBOL GET SFOOTN2 */
+/* JOBSPLIT: SYMBOL GET SFOOTN3 */
+/* JOBSPLIT: SYMBOL GET SFOOTN8 */
+/* JOBSPLIT: SYMBOL GET SFOOTN9 */
+/* JOBSPLIT: SYMBOL GET SFOOTN10 */
+/* JOBSPLIT: SYMBOL GET SDATA */
+/* JOBSPLIT: SYMBOL GET NUMFOOT */
+/* JOBSPLIT: SYMBOL GET TABNUM */
+/* JOBSPLIT: SYMBOL GET TITLE1 */
+/* JOBSPLIT: SYMBOL GET TITLE2 */
+/* JOBSPLIT: SYMBOL GET TITLE3 */
+/* JOBSPLIT: SYMBOL GET TITLE4 */
+/* JOBSPLIT: SYMBOL GET TITLE5 */
+/* JOBSPLIT: SYMBOL GET TITLE6 */
+/* JOBSPLIT: SYMBOL GET OUTPUTF */
+/* JOBSPLIT: SYMBOL GET L_SOURCE */
+/* JOBSPLIT: SYMBOL GET FOOTN11 */
+/* JOBSPLIT: SYMBOL SET FSTLN */
+/* JOBSPLIT: SYMBOL SET CHGLN */
+/* JOBSPLIT: SYMBOL SET FOOTBR */
+/* JOBSPLIT: SYMBOL GET DERDATA */
+/* JOBSPLIT: SYMBOL GET MLS */
+/* JOBSPLIT: SYMBOL GET DRAFT_FINAL */
+/* JOBSPLIT: SYMBOL GET SYSDATE9 */
+/* JOBSPLIT: SYMBOL GET SYSTIME */
+/* JOBSPLIT: SYMBOL GET TYPE */
+/* JOBSPLIT: SYMBOL GET BYVAR */
+/* JOBSPLIT: SYMBOL SET TABNUM */
+/* JOBSPLIT: SYMBOL SET TITLE1 */
+/* JOBSPLIT: SYMBOL SET TITLE2 */
+/* JOBSPLIT: SYMBOL SET TITLE3 */
+/* JOBSPLIT: SYMBOL SET TITLE4 */
+/* JOBSPLIT: SYMBOL SET TITLE5 */
+/* JOBSPLIT: SYMBOL SET TITLE6 */
+/* JOBSPLIT: SYMBOL SET OUTPUTNAME */
+/* JOBSPLIT: SYMBOL SET NUMTITLE */
+/* JOBSPLIT: SYMBOL SET FOOTN1 */
+/* JOBSPLIT: SYMBOL SET FOOTN2 */
+/* JOBSPLIT: SYMBOL SET FOOTN3 */
+/* JOBSPLIT: SYMBOL SET FOOTN4 */
+/* JOBSPLIT: SYMBOL SET FOOTN5 */
+/* JOBSPLIT: SYMBOL SET FOOTN6 */
+/* JOBSPLIT: SYMBOL SET FOOTN7 */
+/* JOBSPLIT: SYMBOL SET FOOTN8 */
+/* JOBSPLIT: SYMBOL SET PROGNAME */
+/* JOBSPLIT: SYMBOL SET FOOTN11 */
+/* JOBSPLIT: SYMBOL SET NUMFOOT */
+/* JOBSPLIT: SYMBOL SET OUTPUTF */
+/* JOBSPLIT: SYMBOL SET NUMOBS */
+/* JOBSPLIT: SYMBOL GET _OUTPUTNAME */
+/* JOBSPLIT: SYMBOL GET OUTPUT */
+/* JOBSPLIT: SYMBOL SET _OUTPUTNAME */
+/* JOBSPLIT: SYMBOL GET NUMOBS */
+/* JOBSPLIT: SYMBOL GET TMNAME */
+/* JOBSPLIT: SYMBOL GET PTITLE1 */
+/* JOBSPLIT: SYMBOL GET PTITLE2 */
+/* JOBSPLIT: SYMBOL GET I */
+/* JOBSPLIT: SYMBOL SET I */
+/* JOBSPLIT: SYMBOL SET I */
+/* JOBSPLIT: SYMBOL GET FOOTBR */
+/* JOBSPLIT: SYMBOL GET CHGLN */
+/* JOBSPLIT: SYMBOL GET SYSSUMTRACE */
+/* JOBSPLIT: SYMBOL SET INFILE */
+/* JOBSPLIT: SYMBOL SET OUTFILE */
+/* JOBSPLIT: SYMBOL SET TEXT */
+/* JOBSPLIT: SYMBOL GET INFILE */
+/* JOBSPLIT: SYMBOL GET TEXT */
+/* JOBSPLIT: SYMBOL SET NUMPAGES */
+/* JOBSPLIT: SYMBOL GET NUMPAGEL */
+/* JOBSPLIT: SYMBOL SET NUMPAGEL */
+/* JOBSPLIT: SYMBOL GET LPAGEOF */
+/* JOBSPLIT: SYMBOL SET LPAGEOF */
+/* JOBSPLIT: SYMBOL GET NUMPAGES */
+/* JOBSPLIT: SYMBOL GET OUTFILE */
+/* JOBSPLIT: ELAPSED 1372  */
+/* JOBSPLIT: SYSSCP WIN */
+/* JOBSPLIT: PROCNAME DATASTEP */
+/* JOBSPLIT: STEP SOURCE FOLLOWS */
+
+%macro listing(progid=tae1, subset=);
+
+proc sort data=sdtm.ae out=ae;
+  by usubjid;
+  %if &subset ne %then %do;
+    where &subset;
+  %end;
+
+proc sort data=sdtm.dm out=dm(keep=usubjid age);
+  by usubjid;
+
+data ae;
+  merge ae(in=x) dm(in=y);
+  by usubjid;
+  if x;
+run;
+
+proc sort data=ae;
+  by usubjid aespid;
+run;
+
+data ae;
+  set ae;
+  by usubjid aespid;
+  length aename date_str trt_str out_str $400 aedur 8;
+  page=int(_n_/4)+1;
+  if aeendtc='' and aeenrf ne '' then aeendtc=propcase(aeenrf);
+  aedur=(aeendy-aestdy)+1;
+  if aeoccur='N' then do;
+    aename='None';  
+	date_str='';
+	trt_str='';
+	out_str='';
+  end;
+  else do;
+    aename='V: '||trim(left(aeterm))||'`-2nP: '||trim(left(aedecod))||'`-2nS: '||trim(left(aebodsys));
+    date_str='Start Date: '||trim(left(aestdtc))||'`-2n'||'Start Day: '||trim(left(aestdy))||'`-2n `-2n'||'Stop Date: '||trim(left(aeendtc))||'`-2n'||'Duration: '||trim(left(aedur));
+	trt_str='Med: '||trim(left(put(aecontrt,$yesno.)))||'`-2n'||'Other: '||trim(left(put(aeaddyn,$yesno.)));
+	out_str='O: '||trim(left(aeout))||'`-2n'||'A: '||trim(left(aeacn));
+  end;
+run;
+
+%mcase(inds=ae, exceptl=%str('USUBJID','DATE_STR','TRT_STR'));
+
+%mnumobs(inds=ae);
+
+%if &nobs=0 %then %do;
+  data newae;
+    aename='None Reported';
+  run;
+
+  data ae;
+    set ae newae;
+  run;
+%end;
+
+%mtitle(progid=&progid);
+
+footnote1;
+
+proc report data=ae headline headskip nowindows split='|' missing spacing=2;
+  column page usubjid age aespid aename date_str aesev aerel trt_str out_str 
+    %if "&progid" ne "lae3" %then %do;
+      aeser 
+    %end;
+	%if "&progid" ne "lae6" %then %do;
+      aehayn
+    %end;
+       ;
+  define page / order noprint;
+  define usubjid / order 'Subject' style={just=left cellwidth=6%};
+  define age / order 'Age|(Years)' format=4.1 style={just=center cellwidth=5%};
+  define aespid / order noprint;
+  define aename / order 'V: AE Verbatim Term|P: Preferred Term`{super a}|S: System Organ Class' flow style={just=left cellwidth=22%};
+  define date_str / display 'Start/Stop Date|Duration(Days)' style={just=left cellwidth=15%};
+  define aesev / display 'Severity' style={just=left cellwidth=8%};
+  define aerel / display 'Relationship|to Drug`{super b}' style={just=left cellwidth=8%};
+  define trt_str / display 'Con Med/|Other Trt?' style={just=left cellwidth=7%};
+  define out_str / display 'Outcome (O)/|Action Taken|with Study|Treatment(A)' flow style={just=left cellwidth=15%};
+  %if "&progid" ne "lae3" %then %do;
+    define aeser / display 'Serious?' format=$yesno. style={just=left cellwidth=6%};
+  %end;
+  %if "&progid" ne "lae6" %then %do;
+    define aehayn / display 'Hyper-|sensitivity`{super c}' format=$yesno. style={just=left cellwidth=7%};
+  %end;
+  compute after usubjid / style=[just=left];
+     line 143*'_';
+  endcomp;
+  compute after aename;
+    line "  ";
+  endcomp;
+  compute after page / style=[just=left];
+	 line "&footn1";
+	 line "&footn2";
+	 line "&footn3";
+	 line "&footn4";
+	 line " ";
+	 line "&footn11";
+  endcomp;
+  break after page / page;
+run;
+
+ods rtf close;
+ods listing;
+
+%mpageof;
+
+%mend listing;
+%listing(progid=lae1);
+%*listing(progid=lae3, subset=%str(aeser='Y'));
+%*listing(progid=lae4, subset=%str(aesev ne 'MILD' and aesev ne 'MODERATE' and aesev ne ''));
+%*listing(progid=lae5, subset=%str(aerel ne '' and aerel ne 'NOT RELATED' and aerel ne 'UNLIKELY RELATED'));
+%*listing(progid=lae6, subset=%str(aehayn='Y'));
+
+
+/* JOBSPLIT: JOBENDTIME 09SEP2016:20:56:28.30 */
+/* JOBSPLIT: END */
