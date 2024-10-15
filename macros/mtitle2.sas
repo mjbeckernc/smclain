@@ -1,6 +1,6 @@
 %*** For in-text tables;
 %macro  mtitle2 (progid=,
-                 type=rtf,
+                 type=html,
                  orient=l,
                  sasopt=nodate nonumber nobyline,
                  byvar=,

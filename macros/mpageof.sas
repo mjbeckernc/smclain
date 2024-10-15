@@ -13,7 +13,7 @@
 *********************************************************************/
 %macro mpageof(infile="&output/&outputf/&outputname..&type",
                 outfile="&output/&outputf/&outputname..&type",
-                type=HTML,
+                type=html,
                 text=[Page_00000_of_99999],
                );
 

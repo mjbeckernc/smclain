@@ -90,7 +90,7 @@ run;
 proc sort data=final;
   by page aebodsys &aevar;
 
-%mtitle(progid=&progid, type=HTML);
+%mtitle(progid=&progid, type=html);
 
 proc report data=final headline headskip nowindows split='|' missing spacing=1;
   column page aebodsys sorder &aevar ("Age Group (years) \brdrb\brdrs" trt1 trt2 trt3 trt4 trt5) trt6;
@@ -122,7 +122,7 @@ ods listing;
 
 %if &itprogid ne %then %do;
 
-  %mtitle2(progid=&itprogid, orient=P, type=HTML);
+  %mtitle2(progid=&itprogid, orient=P, type=html);
 
   proc report data=final headline headskip nowindows split='|' missing spacing=1;
     column page sorder &aevar ("Age Group (years) \brdrb\brdrs" trt1 trt2 trt3 trt4) trt6;
